@@ -1,0 +1,62 @@
+body{
+    margin:0;
+}
+h1{
+    font-family: 'Gantari', sans-serif;
+    font-size: 40px;
+}
+h2,h3{
+    font-family: 'Gantari', sans-serif;
+    
+}
+p{
+    margin-bottom:10%;
+}
+.about-me {
+    background-image: url('images/shapes/7.png');
+    background-repeat:no-repeat;
+    background-size: 100% 90%;
+}
+.about-me img{
+    width:50%;
+}
+.flexible-container{
+    display:flex;
+}
+.half-width{
+    width:50%;
+    padding-left:5%;
+}
+.half-width img{
+    width:100%;
+}
+.color-deepgray{
+    color: rgb(103, 97, 97);
+}
+.color-orangered{
+    color:rgb(244, 134, 94);
+}
+.color-lightgray{
+    color:rgb(112, 116, 120);
+}
+
+.link-button{
+    text-decoration:none;
+    background-image: linear-gradient(orange,red);
+    padding: 2% 3%;
+    color:white;
+    border-radius: 20px;
+    text-align: left;
+}
+section{
+    margin-bottom: 20px;
+}
+.align-center{
+    text-align: center;
+}
+.recipie-item {
+    box-shadow: 10px 10px 50px gray;
+    margin:20px 40px;
+    padding: 20px 25px;
+    border-radius: 20px;
+}
